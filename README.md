@@ -9,10 +9,10 @@
 # Quark
 Quark is a Transformer model implemented from scratch in C++, created for natural language processing (NLP) with a focus on Russian. The project does not use large machine learning libraries (like PyTorch or TensorFlow), relying only on minimal dependencies such as OpenBLAS for matrix operations.
 
-
-**(! Training was not carried out due to poor hardware, as a base there is only a file of embeddings. Development is also suspended!)
-There may be some flaws and code curvature.  **
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+(! Training was not carried out due to poor hardware, as a base there is only a file of embeddings. Development is also suspended!)
+There may be some flaws and code curvature. 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ## Main Features
