@@ -1,7 +1,9 @@
 // Copyright (c) 2025 tickyChan. All rights reserved.
 
 // Usage restrictions
+
 // This project is intended for **read-only** educational or informational purposes. The code is not licensed for use, copying, modification, distribution or any other use. All rights reserved.
+
 // **Warning**: Any unauthorized use of the code violates copyright.
 
 # Quark
@@ -9,11 +11,12 @@ Quark is a Transformer model implemented from scratch in C++, created for natura
 
 (! Training was not carried out due to poor hardware, as a base there is only a file of embeddings. Development is also suspended!)
 
-## Main features
-- Full implementation of Transformer: Includes Multi-Head Attention, FeedForward, LayerNorm, Positional Encoding and KV-cache for efficient generation.
-- From scratch in C++: All components (tensors, gradients, Adam optimizer) are implemented manually without using large frameworks.
-- Language: Integration with a tokenizer for processing Russian-language texts. The ability to learn Russian with various special characters and English letters is available.
-- Data storage: The model is saved in JSON files for convenience. Support for other formats (for example, RocksDB) is planned in the future.
+## Main Features
+- **Complete Transformer Implementation**: An autoregressive Transformer model including Multi-Head Attention with causal masking, FeedForward, LayerNorm, Positional Encoding, and KV cache for efficient text generation.
+- **Built from Scratch in C++**: All components (tensors, gradients, Adam optimizer) are implemented manually without relying on large machine learning frameworks.
+- **Russian Language Support**: Integrated with a tokenizer optimized for Russian text, supporting special characters and mixed Russian-English input.
+- **Data Storage**: The model is saved in JSON files. Support for other formats (e.g., RocksDB) is planned.
+
 
 ## Architecture
 Quark implements the classic autoregressive Transformer architecture with the following components:
