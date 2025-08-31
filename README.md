@@ -19,12 +19,12 @@ Quark is a Transformer model implemented from scratch in C++, created for natura
 
 
 ## Architecture
-Quark implements the classic autoregressive Transformer architecture with the following components:
-- Tensor: A class for working with tensors, supporting matrix operations (via OpenBLAS) and automatic differentiation.
-- MultiHeadAttention: A multi-headed attention mechanism with a causal mask and a KV cache.
-- FeedForward: A fully connected layer with GeLU activation.
-- LayerNorm: Normalization of layers with trainable parameters (gamma, beta).
-- PositionalEncoding: Sinusoidal positional encodings.
-- AdamOptimizer: An Adam optimizer with gradient clipping.
-- TransformerModel: The main class that combines components for training and text generation.
-- TrainingSystem: A system for loading data and training a model with support for validation and early stopping.
+Quark implements an autoregressive Transformer architecture with the following components:
+- **Tensor**: A class for tensor operations, supporting matrix computations (via OpenBLAS) and automatic differentiation for gradient-based training.
+- **MultiHeadAttention**: Multi-Head Attention mechanism with causal masking and KV cache for efficient generation.
+- **FeedForward**: Fully connected layer with GeLU activation.
+- **LayerNorm**: Layer normalization with trainable parameters (gamma, beta).
+- **PositionalEncoding**: Sinusoidal positional encodings for sequence order.
+- **AdamOptimizer**: Adam optimizer with gradient clipping.
+- **TransformerModel**: Main class integrating components for training and text generation.
+- **TrainingSystem**: System for data loading, training, validation, and early stopping.
