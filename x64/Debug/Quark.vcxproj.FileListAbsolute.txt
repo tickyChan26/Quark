@@ -1,0 +1,3 @@
+F:\Quark\x64\Debug\Quark.vcxproj.CopyComplete
+F:\Quark\x64\Debug\Quark.exe
+F:\Quark\x64\Debug\openblas.dll
