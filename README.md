@@ -11,9 +11,8 @@ Quark is a Transformer model implemented from scratch in C++, created for natura
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-(! Training was not carried out due to poor hardware, as a base there is only a file of embeddings. Development is also suspended!)
-
-There may be some flaws and code curvature. 
+## Project Status
+Development is currently paused and training has not been conducted due to limited hardware resources. The project is a skeleton. The code may contain inaccuracies since it is still in development.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
