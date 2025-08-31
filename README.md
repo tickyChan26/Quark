@@ -1,4 +1,5 @@
 // Copyright (c) 2025 tickyChan. All rights reserved.
+
 // Usage restrictions
 // This project is intended for **read-only** educational or informational purposes. The code is not licensed for use, copying, modification, distribution or any other use. All rights reserved.
 // **Warning**: Any unauthorized use of the code violates copyright.
