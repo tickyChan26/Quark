@@ -1,8 +1,7 @@
 // Copyright (c) 2025 tickyChan. All rights reserved.
-
-## Usage restrictions
-This project is intended for **read-only** educational or informational purposes. The code is not licensed for use, copying, modification, distribution or any other use. All rights reserved.
-**Warning**: Any unauthorized use of the code violates copyright.
+// Usage restrictions
+// This project is intended for **read-only** educational or informational purposes. The code is not licensed for use, copying, modification, distribution or any other use. All rights reserved.
+// **Warning**: Any unauthorized use of the code violates copyright.
 
 # Quark
 Quark is a Transformer model implemented from scratch in C++, created for natural language processing (NLP) with a focus on Russian. The project does not use large machine learning libraries (like PyTorch or TensorFlow), relying only on minimal dependencies such as OpenBLAS for matrix operations.
